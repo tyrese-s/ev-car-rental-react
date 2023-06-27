@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 import { DatePicker } from '@mui/x-date-pickers'
-import tesla from '../assets/tesla.png'
+import tesla from '../assets/tesla3.png'
 import { Button, Grid, InputLabel, MenuItem, Select } from '@mui/material'
+import CarPicker from './CarPicker'
 
 export default function Home () {
 
@@ -86,6 +87,7 @@ export default function Home () {
                 </Grid>
             </Grid>
         </div>
+        <CarPicker id="CarPicker"/>
         </div>
     )
 }
